@@ -1,0 +1,9 @@
+<div class="text-center">
+    <h1>{{this.cars}}</h1>
+    <div class="my-3">
+        <a href="/cars" class="btn btn-info">Go Back</a>
+        <form action="/cars/{{this.id}}?_method=DELETE" method="POST" class="d-inline">
+            <input type="submit" value="Release :(" class="btn btn-danger">
+        </form>
+    </div>
+</div>

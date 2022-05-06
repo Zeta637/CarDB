@@ -1,0 +1,53 @@
+[{
+
+        "year": "2011",
+        "make": "infinti",
+        "model": "G37x",
+        "name": "Jordi",
+        "issue": "missing tire",
+        "complete": true
+    },
+    {
+        "year": "2020",
+        "make": "nissan",
+        "model": "GTR Nismo",
+        "name": "Rosie",
+        "issue": "missing turbo",
+        "complete": true
+    },
+    {
+        "year": "2013",
+        "make": "Nissan",
+        "model": "Altima",
+        "name": "Jojo",
+        "issue": "needs fender",
+        "complete": true
+    },
+    {
+        "year": "2014",
+        "make": "Dodge",
+        "model": "Challenger",
+        "name": "Richard",
+        "issue": "Its slow",
+        "complete": true
+    },
+    {
+        "year": "2020",
+        "make": "Jeep",
+        "model": "Grand Cherokee TrackHawk AWD",
+        "name": "tuk",
+        "issue": "fuel tank missing",
+        "complete": true
+    },
+    {
+        "year": "2020",
+        "make": "infinti",
+        "model": "Q60 Red Sport",
+        "name": "zara",
+        "issue": "brakes don't work",
+        "complete": true
+    }
+
+
+]
+// END

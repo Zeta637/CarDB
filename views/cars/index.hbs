@@ -1,0 +1,20 @@
+<header class="title-center">
+    <h1>Add your Year, Make, Model of the car and Name also the reason for your visit </h1>
+<a href="/new" class="btn-btn-primary">Add new customer</a>
+</header>
+{{#each customer}}
+<div class="text-center">
+<ul>
+    
+    <h3>{{this.name}}</h3>
+    <div class="links m-3">
+        <a href="/cars/{{this.id}}" class="name" type="submit" class="btn btn-info" >View</a>
+        <a href="/cars/{{this.id}}/edit" class="name">Edit</a>
+  <form action="/cars/{{this.id}}?_method=DELETE" method="POST" class="d-inline">
+        <button type="submit" value="Delete" method="POST"  class="btn btn-danger">Delete</button>
+  </form>
+  </div>
+</ul>
+</div>
+{{/each}}
+{{!-- END --}}

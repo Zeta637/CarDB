@@ -1,0 +1,37 @@
+  <link rel="stylesheet" href="../css/style.css">
+
+  <h1>Update Your Car Details</h1> 
+
+</header>
+<form action="/cars/{{this.id}}/?_method=put" method="POST">
+    <div class="edit">
+        <label for="title" class="edit">Name:</label>
+        <input type="text" id="name" name="name" value="{{this.name}}" class="edit">
+        
+    </div>
+    <div class="edit">
+    <label for="title" class="edit">Year:</label>
+    <input type="text" id="year" name="year" value="{{this.year}}" class="edit">
+</div>
+<div class="edit">
+    <label for="title" class="edit">Make:</label>
+<input type="text" id="make" name="make"  value="{{this.make}}" class="edit">
+</div>
+<div class="edit">
+    <label for="title" class="edit">Model:</label>
+<input type="text" id="model" name="model" value="{{this.model}}" class="edit">
+</div>
+
+<div class="edit">
+    <label for="title" class="edit">Issue:</label>
+<input type="text" id="issue" name="issue" value="{{this.issue}}" class="edit">
+</div>
+    <div class="edit">
+    </div>
+    <div class="button-center m-3">
+        <input type="submit" value="Update" class="button">
+        <input type="submit" value="Cancel" class="button">
+    </div>
+</form>
+
+{{!-- END --}}

@@ -1,0 +1,21 @@
+<div class="text-center">
+    <h1>Information center for your car</h1>
+
+    <body>
+        
+    <input type="text" id="name" name="name" value="{{this.name}}" class="show">
+    <input type="text" id="year" name="year" value="{{this.year}}" class="show">
+    <input type="text" id="make" name="make" value="{{this.make}}" class="show">
+    <input type="text" id="model" name="model" value="{{this.model}}" class="show">
+    <input type="text" id="issue" name="issue" value="{{this.issue}}" class="show">
+    </body>
+    
+    
+    <div class="my-3">
+        <a href="/cars" class="go">Go Back</a>
+        <form action="/cars/{{this.id}}?_method=DELETE" method="POST" class="d-inline">
+            <input type="submit" value="Delete" class="btn btn-danger">
+        </form>
+    </div>
+</div>
+{{!-- END --}}

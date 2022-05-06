@@ -1,0 +1,125 @@
+/* home pages */
+
+body {
+    background-image: url("../Shop.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-position: center; */
+}
+
+.show {
+    font-size: 30px;
+    text-decoration: none;
+    display: inline-block;
+    width: 265px;
+    height: 15px;
+    background: black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.go {
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    width: 60px;
+    height: 22px;
+    background: black;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.edit {
+    font-size: 20px;
+    padding: 20px;
+    color: black;
+}
+
+.form {
+    font-size: 20px;
+    padding: 20px;
+    color: black;
+    margin: 15px;
+}
+
+
+/* closed */
+
+
+/* cars section */
+
+.text-center {
+    color: black;
+    font-family: Trattatello, fantasy;
+    font-size: 20px;
+    padding: 10px;
+}
+
+ul {
+    display: block;
+    float: left;
+    width: 300px;
+    height: 159px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 red;
+    transition: 0.3s;
+    border-radius: 5px;
+    color: black;
+    /* 5px rounded corners */
+}
+
+
+/* closed */
+
+
+/* title for the home page plus link to add new customers */
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: Stencil Std, fantasy;
+}
+
+.btn-btn-primary {
+    font-family: Stencil Std, fantasy;
+    text-decoration: black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: solid black 2px;
+    border-top: none;
+    border-radius: 10px;
+    border-left: 0.5px;
+    border-right: 0.5px;
+}
+
+.name {
+    text-decoration: none;
+    display: inline-block;
+    width: 35px;
+    height: 15px;
+    background: black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+
+/* closed */
+/* END */
